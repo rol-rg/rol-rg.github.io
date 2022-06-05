@@ -202,7 +202,7 @@ body{
 }
 
 .footer{
-    margin-top: 200px;
+    margin-top: 300px;
     height: 180px;
 }
 
@@ -253,7 +253,7 @@ body{
     }
     
     .footer{
-        margin-top: 400px;
+        margin-top: 300px;
         height: 180px;
     }
     
@@ -306,7 +306,7 @@ body{
     }
     
     .footer{
-        margin-top: 400px;
+        margin-top: 300px;
         height: 180px;
     }
     
@@ -358,14 +358,14 @@ body{
     }
     
     .footer{
-        margin-top: 400px;
+        margin-top: 300px;
         height: 180px;
     }
     
 }
 
 /*RESPONSIVE 370PX*/
-@media only screen and (max-width: 368px){
+@media only screen and (max-width: 380px){
 
     .header{
         display: flex;
@@ -412,7 +412,7 @@ body{
     }
     
     .footer{
-        margin-top: 400px;
+        margin-top: 300px;
         height: 180px;
     }
     
@@ -463,11 +463,11 @@ body{
         flex-direction: column;
         max-height: 100%;
         height: auto;
-        margin-left: 40px;
+        margin-left: 15px;
     }
     
     .footer{
-        margin-top: 400px;
+        margin-top: 300px;
         height: 180px;
     }
     
