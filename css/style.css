@@ -103,8 +103,8 @@ body{
         border-bottom: #000000 1px solid;
     }
         .img-row img{
-            margin-bottom: 8px;
-            border-radius: 2px;
+            margin-bottom: 15px;
+            border-radius: 2px #fff;
             margin-right: 10px;
             width: 80px;
         }
@@ -146,16 +146,24 @@ body{
         }
 
 @media only screen and (max-width: 768px){
-.navbar-items{
-    width: 50%;
-    margin-top: 1rem;
-}
-    .menu{
-        display: block;
+    .navbar-items{
+        width: 100%;
+        margin-top: 1rem;
     }
-        .navbar-items ul li{
-            display: block;
-        }
 
-    
+    .menu{
+     display: block;
+    }
+
+     .navbar-items ul li{
+         display: block;
+    }
+
+    .navbar-items ul li a:hover{
+        background-color: beige;
+        padding: 0.5rem 0;
+        border-radius: 5px;
+        transition: all 0.4s linear;
+    }
+   
 }
