@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Kdam+Thmor+Pro&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Blaka&family=Kdam+Thmor+Pro&family=Roboto:wght@100&display=swap');
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
@@ -29,13 +30,21 @@ body{
         align-items: center;
         flex-wrap: wrap;
     }
+    .container-logo h2{
+        font-size: 8vmin;
+        font-family: 'Blaka', cursive;
+        letter-spacing: 1.2rem;
+    }
+            .border {
+                color: black;  
+                text-shadow:
+                -1px -1px 0 white, 
+                1px -1px 0 white,
+                -1px 1px 0 white,
+                1px 1px 0 white;  
+            }
 
-    /*.logo{
-        letter-spacing: 0.3rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 900;
-        font-size: 30px;
-    }*/
+
     .container-logo .logo img{
         width: 90px;
         height: 100px;
@@ -48,6 +57,7 @@ body{
     }
 
     .navbar-items ul{
+        position: relative;
         margin-right: 8rem;
         list-style: none;
         color: #fff;
@@ -160,15 +170,8 @@ body{
     border-bottom: 1px #fff solid;
     height: auto;
 }
-    .container-logo .logo{
-        margin-left: 15%;
-        width: 100%;
-        display: block;
-    }
-    .container-logo .logo img{
-        margin-left: 25%;
-        width: 50px;
-        height: 60px;
+    .container-logo h2{
+        margin-left: 28%;
     }
     .header .navbar-items{
         padding-top: 10px;
@@ -180,7 +183,7 @@ body{
         padding-top: 10px;
         display: flex;
         flex-direction: column;
-        margin-left: 28%;
+        margin-left: 25%;
         font-size: 20px;
 
     }
@@ -191,6 +194,9 @@ body{
 .container-body .datos{
     flex-wrap: nowrap;
 }
+    .datos h2{
+        margin-bottom: 100px;
+    }
 
 .main .img-row{
     align-items: center;
@@ -198,7 +204,7 @@ body{
     flex-direction: column;
     max-height: 100%;
     height: auto;
-    margin-left: 150px;
+    margin-left: 155px;
 }
 
 .footer{
@@ -216,22 +222,13 @@ body{
         border-bottom: 1px #fff solid;
         height: auto;
     }
-        .container-logo .logo{
-            margin-left: 0%;
-            width: 100%;
-            display: block;
-        }
-        .container-logo .logo img{
-            margin-left: 30%;
-            width: 50px;
-            height: 60px;
+        .container-logo h2{
+            margin-left: 25%;
         }
         .header .navbar-items{
             padding-top: 10px;
         }
-        nav{
-            width: 100%;
-        }
+        
         .navbar-items ul{
             padding-top: 10px;
             display: flex;
@@ -269,16 +266,7 @@ body{
         border-bottom: 1px #fff solid;
         height: auto;
     }
-        .container-logo .logo{
-            margin-left: 0%;
-            width: 100%;
-            display: block;
-        }
-        .container-logo .logo img{
-            margin-left: 30%;
-            width: 50px;
-            height: 60px;
-        }
+        
         .header .navbar-items{
             padding-top: 10px;
         }
@@ -322,15 +310,8 @@ body{
         border-bottom: 1px #fff solid;
         height: auto;
     }
-        .container-logo .logo{
-            margin-left: 0%;
-            width: 100%;
-            display: block;
-        }
-        .container-logo .logo img{
-            margin-left: 25%;
-            width: 50px;
-            height: 60px;
+        .container-logo h2{
+            margin-left: 20%;
         }
         .header .navbar-items{
             padding-top: 10px;
@@ -374,15 +355,8 @@ body{
         border-bottom: 1px #fff solid;
         height: auto;
     }
-        .container-logo .logo{
-            margin-left: 0%;
-            width: 100%;
-            display: block;
-        }
-        .container-logo .logo img{
-            margin-left: 25%;
-            width: 50px;
-            height: 60px;
+        .container-logo h2{
+            margin-left: 15%;
         }
         .header .navbar-items{
             padding-top: 10px;
@@ -394,7 +368,7 @@ body{
             padding-top: 10px;
             display: flex;
             flex-direction: column;
-            margin-left: 10%;
+            margin-left: 5%;
             font-size: 20px;
     
         }
@@ -426,15 +400,8 @@ body{
         border-bottom: 1px #fff solid;
         height: auto;
     }
-        .container-logo .logo{
-            margin-left: 0%;
-            width: 100%;
-            display: block;
-        }
-        .container-logo .logo img{
-            margin-left: 15%;
-            width: 50px;
-            height: 60px;
+        .container-logo h2{
+            margin-left: 10%;
         }
         .header .navbar-items{
             padding-top: 10px;
@@ -464,7 +431,7 @@ body{
     }
     
     .footer{
-        margin-top: 300px;
+        margin-top: 400px;
         height: 180px;
     }
     
@@ -480,16 +447,8 @@ body{
         border-bottom: 1px #fff solid;
         height: auto;
     }
-        .container-logo .logo{
-            margin-left: 0%;
-            width: 100%;
-            display: block;
-        }
-        .container-logo .logo img{
-            padding-left: 10px;
-            margin-left: 13%;
-            width: 30px;
-            height: 40px;
+        .container-logo h2{
+            margin-left: 4%;
         }
         .header .navbar-items{
             padding-top: 10px;
@@ -501,7 +460,7 @@ body{
             padding-top: 10px;
             display: flex;
             flex-direction: column;
-            margin-left: -10%;
+            margin-left: -12%;
             font-size: 14px;
     
         }
@@ -519,7 +478,7 @@ body{
     }
     
     .footer{
-        margin-top: 300px;
+        margin-top: 400px;
         height: 180px;
     }
     
@@ -535,20 +494,10 @@ body{
         border-bottom: 1px #fff solid;
         height: auto;
     }
-        .container-logo .logo{
-            margin-left: 0%;
-            width: 100%;
-            display: block;
+        .container-logo h2{
+            margin-left: -6%;
         }
-        .container-logo .logo img{
-            padding-left: 10px;
-            margin-left: 0%;
-            width: 30px;
-            height: 40px;
-        }
-        .header .navbar-items{
-            padding-top: 10px;
-        }
+        
         nav{
             width: 100%;
         }
@@ -574,7 +523,7 @@ body{
     }
     
     .footer{
-        margin-top: 300px;
+        margin-top: 400px;
         height: 180px;
     }
     
@@ -589,16 +538,8 @@ body{
         border-bottom: 1px #fff solid;
         height: auto;
     }
-        .container-logo .logo{
-            margin-left: 0%;
-            width: 100%;
-            display: block;
-        }
-        .container-logo .logo img{
-            padding-left: 10px;
-            margin-left: -10%;
-            width: 30px;
-            height: 40px;
+        .container-logo h2{
+            margin-left: -20%;
         }
         .header .navbar-items{
             padding-top: 10px;
@@ -628,7 +569,7 @@ body{
     }
     
     .footer{
-        margin-top: 400px;
+        margin-top: 450px;
         height: 180px;
     }
     
