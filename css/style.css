@@ -24,7 +24,7 @@ body{
 }
 
     .container-logo{
-        margin-left: 8rem;
+        float: right;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -36,20 +36,22 @@ body{
         letter-spacing: 1.2rem;
         text-shadow: 2px 2px 15px #00ffff;
     }
-            .border {
-                color: black;  
-                text-shadow:
-                -1px -1px 0 white, 
-                1px -1px 0 white,
-                -1px 1px 0 white,
-                1px 1px 0 white;  
+        .container-logo .logo-nuevo{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+        }
+            .container-logo .logo-nuevo span{
+                font-size: 4vw;
+                font-weight: 800;
+                text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
             }
-
-
-    .container-logo .logo img{
-        width: 90px;
-        height: 100px;
-    }
+            .container-logo .logo-nuevo span:not(:first-child){
+                margin-left: -0.23em;
+            }
 
 
     .header a{
