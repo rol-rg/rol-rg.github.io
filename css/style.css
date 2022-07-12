@@ -148,9 +148,29 @@ body{
     border-bottom: 1px #fff solid;
     height: auto;
 }
-    .container-logo .logo-nuevo{
-        align-items: center;
+    .container-logo h2{
+        font-size: 8vmin;
+        font-family: 'Blaka', cursive;
+        letter-spacing: 1.2rem;
+        text-shadow: 2px 2px 15px #00ffff;
     }
+        .container-logo .logo-nuevo{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+        }
+            .container-logo .logo-nuevo span{
+                font-size: 4vw;
+                font-weight: 800;
+                text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+            }
+            .container-logo .logo-nuevo span:not(:first-child){
+                margin-left: -0.23em;
+            }
+
 
 .container-body .datos{
     flex-wrap: nowrap;
@@ -184,8 +204,28 @@ body{
         height: auto;
     }
         .container-logo h2{
-            margin-left: 25%;
+        font-size: 8vmin;
+        font-family: 'Blaka', cursive;
+        letter-spacing: 1.2rem;
+        text-shadow: 2px 2px 15px #00ffff;
+    }
+        .container-logo .logo-nuevo{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
         }
+            .container-logo .logo-nuevo span{
+                font-size: 4vw;
+                font-weight: 800;
+                text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+            }
+            .container-logo .logo-nuevo span:not(:first-child){
+                margin-left: -0.23em;
+            }
+
 
     .main .img-row{
         align-items: center;
@@ -239,8 +279,28 @@ body{
         height: auto;
     }
         .container-logo h2{
-            margin-left: 20%;
+        font-size: 8vmin;
+        font-family: 'Blaka', cursive;
+        letter-spacing: 1.2rem;
+        text-shadow: 2px 2px 15px #00ffff;
+    }
+        .container-logo .logo-nuevo{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
         }
+            .container-logo .logo-nuevo span{
+                font-size: 4vw;
+                font-weight: 800;
+                text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+            }
+            .container-logo .logo-nuevo span:not(:first-child){
+                margin-left: -0.23em;
+            }
+
     .main .img-row{
         align-items: center;
         display: flex;
@@ -266,8 +326,28 @@ body{
         height: auto;
     }
         .container-logo h2{
-            margin-left: 15%;
+        font-size: 8vmin;
+        font-family: 'Blaka', cursive;
+        letter-spacing: 1.2rem;
+        text-shadow: 2px 2px 15px #00ffff;
+    }
+        .container-logo .logo-nuevo{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
         }
+            .container-logo .logo-nuevo span{
+                font-size: 4vw;
+                font-weight: 800;
+                text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+            }
+            .container-logo .logo-nuevo span:not(:first-child){
+                margin-left: -0.23em;
+            }
+
     .main .img-row{
         align-items: center;
         display: flex;
@@ -293,8 +373,28 @@ body{
         height: auto;
     }
         .container-logo h2{
-            margin-left: 10%;
+        font-size: 8vmin;
+        font-family: 'Blaka', cursive;
+        letter-spacing: 1.2rem;
+        text-shadow: 2px 2px 15px #00ffff;
+    }
+        .container-logo .logo-nuevo{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
         }
+            .container-logo .logo-nuevo span{
+                font-size: 4vw;
+                font-weight: 800;
+                text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+            }
+            .container-logo .logo-nuevo span:not(:first-child){
+                margin-left: -0.23em;
+            }
+
         
     .main .img-row{
         align-items: center;
@@ -323,8 +423,28 @@ body{
         height: auto;
     }
         .container-logo h2{
-            margin-left: 4%;
+        font-size: 8vmin;
+        font-family: 'Blaka', cursive;
+        letter-spacing: 1.2rem;
+        text-shadow: 2px 2px 15px #00ffff;
+    }
+        .container-logo .logo-nuevo{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
         }
+            .container-logo .logo-nuevo span{
+                font-size: 4vw;
+                font-weight: 800;
+                text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+            }
+            .container-logo .logo-nuevo span:not(:first-child){
+                margin-left: -0.23em;
+            }
+
 
     .main .img-row{
         align-items: center;
@@ -353,8 +473,28 @@ body{
         height: auto;
     }
         .container-logo h2{
-            margin-left: -6%;
+        font-size: 8vmin;
+        font-family: 'Blaka', cursive;
+        letter-spacing: 1.2rem;
+        text-shadow: 2px 2px 15px #00ffff;
+    }
+        .container-logo .logo-nuevo{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
         }
+            .container-logo .logo-nuevo span{
+                font-size: 4vw;
+                font-weight: 800;
+                text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+            }
+            .container-logo .logo-nuevo span:not(:first-child){
+                margin-left: -0.23em;
+            }
+
 
     .main .img-row{
         align-items: center;
@@ -382,8 +522,28 @@ body{
         height: auto;
     }
         .container-logo h2{
-            margin-left: -20%;
+        font-size: 8vmin;
+        font-family: 'Blaka', cursive;
+        letter-spacing: 1.2rem;
+        text-shadow: 2px 2px 15px #00ffff;
+    }
+        .container-logo .logo-nuevo{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
         }
+            .container-logo .logo-nuevo span{
+                font-size: 4vw;
+                font-weight: 800;
+                text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+            }
+            .container-logo .logo-nuevo span:not(:first-child){
+                margin-left: -0.23em;
+            }
+
 
     .main .img-row{
         align-items: center;
